@@ -1,4 +1,4 @@
-Título do Projeto e modelo de negócio escolhido:
+# Título do Projeto e modelo de negócio escolhido:
 Smart Rh  - Sistema de Gestão de Recursos Humanos
 
 Descrição Geral : 
@@ -9,13 +9,17 @@ Funcionários: id, nome, cargo, departamento e salário.
 
 Funcionalidades Principais (CRUD):
 
-Método HTTP	 Endpoint	    	Descrição
-GET	     /funcionarios		Lista todos os funcionários.
-GET	/funcionarios/{id}		Busca um funcionário pelo ID.
-GET	/funcionarios/nome/{nome} 		        Busca um funcionário pelo nome.
-POST	 /funcionarios    		Adiciona um novo funcionário.
-PUT	/funcionarios		Atualiza um funcionário existente.
-DELETE	/funcionarios/{id}		Exclui um funcionário pelo ID.
+
+| Método HTTP	  | Endpoint	 | 	Descrição |
+| ------------- | ------------- | ------------- |
+|GET  | /funcionarios | Lista todos os funcionários |
+| GET  |/funcionarios/{id}  | Busca um funcionário pelo ID|
+| GET  | /funcionarios/nome/{nome}  | Busca um funcionário pelo nome |
+| POST  | /funcionarios	 | Adiciona um novo funcionário |
+| PUT  | /funcionarios	 | Atualiza um funcionário existente |
+| DELETE  | /funcionarios/{id}	  | Exclui um funcionário pelo ID |
+
+
 
 
 Tecnologias Utilizadas (banco de dados e backend)
